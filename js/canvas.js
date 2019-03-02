@@ -1,4 +1,4 @@
-var cnvs = document.getElementById("myCanvas");
+var cnvs = $(`<canvas>`).attr("width",300).attr("height",300).appendTo("body").get(0);
 var cntxt = cnvs.getContext("2d")
 var w = cnvs.width;
 var h = cnvs.height;

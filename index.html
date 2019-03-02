@@ -12,12 +12,14 @@
     <meta http-equiv="Expires" content="0">
 
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    
+    <!-- jQuery使うために追加するjs -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 	<title>HTML Game</title>
 </head>
 <body>
 	<canvas id="myCanvas" width="300" height="300"></canvas>
 </body>
+<!-- bodyよりgetContextが先に来たらエラーが起きるのでbodyの後に書く -->
 <script type="text/javascript" src="js/canvas.js">
 
 </script>
